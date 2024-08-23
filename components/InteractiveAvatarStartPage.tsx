@@ -1,9 +1,6 @@
-import React from 'react';
-
-const EmbeddedComponent: React.FC = () => {
+export default function InteractiveAvatarCode() {
   return (
     <div style={styles.container}>
-      {/* Column 1: Image */}
       <div style={styles.column}>
         <img 
           src="https://www.web3.lu/wp-content/uploads/2024/08/avatar.png"
@@ -11,8 +8,6 @@ const EmbeddedComponent: React.FC = () => {
           style={{ width: '100%', height: 'auto' }} 
         />
       </div>
-      
-      {/* Column 2: Text */}
       <div style={styles.column}>
        <h2>Demo Limitations:</h2>
        <ul>
