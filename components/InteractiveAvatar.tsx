@@ -289,7 +289,7 @@ export default function InteractiveAvatar() {
             </div>
           ) : !isLoadingSession ? (
             <div>
-              
+              <InteractiveAvatarStartPage>
               <Button
                 size="md"
                 onClick={startSession}
