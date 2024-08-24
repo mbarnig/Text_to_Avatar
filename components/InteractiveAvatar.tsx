@@ -9,19 +9,12 @@ import {
   CardBody,
   CardFooter,
   Divider,
-  Input,
-  Select,
-  SelectItem,
   Spinner,
-  Tooltip,
 } from "@nextui-org/react";
-import { Microphone, MicrophoneStage } from "@phosphor-icons/react";
 import { useChat } from "ai/react";
-import clsx from "clsx";
 import OpenAI from "openai";
 import { useEffect, useRef, useState } from "react";
 import InteractiveAvatarTextInput from "./InteractiveAvatarTextInput";
-import InteractiveAvatarStartPage from "./InteractiveAvatarStartPage";
 
 const openai = new OpenAI({
   apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
@@ -289,7 +282,25 @@ export default function InteractiveAvatar() {
             </div>
           ) : !isLoadingSession ? (
             <div>
-              <InteractiveAvatarStartPage>
+             <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", gap: "20px"}}>
+                <div style={{ flex: "1 1 50%", maxWidth: "50%" }}>   
+                  <img src="/myavatar.png" alt="my Avatar" style={{width: "100%", height: "auto"}} />             
+                </div>
+                <div style={{ flex: "1 1 50%", maxWidth: "50%" }}>      
+                 <h2>Demo Limitations:</h2>
+                 <ul>
+                  <li>Up to 3 concurrent sessions are allowed.</li>
+                  <li>Each session is limited to a maximum of 10 minutes.</li>
+                  <li>Submitted text should not exceed 1000 words.</li>
+                 </ul>
+                 <h2>For Optimal Performance:</h2>
+                 <ul>
+                  <li>Use the Chrome browser for the best experience.</li>
+                  <li>Submit text in multiple languages: English, German, French, Luxembourgish, Chinese, Japanese, Hindi, Korean, Danish, Dutch, Turkish, and more.</li>
+                  <li>Monitor log messages in the console for important updates.</li>
+                 </ul>
+               </div>
+              </div>              
               <Button
                 size="md"
                 onClick={startSession}

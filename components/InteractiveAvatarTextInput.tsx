@@ -1,5 +1,5 @@
 import { Input, Spinner, Tooltip } from "@nextui-org/react";
-import { Airplane, ArrowRight, PaperPlaneRight } from "@phosphor-icons/react";
+import { PaperPlaneRight } from "@phosphor-icons/react";
 import clsx from "clsx";
 
 interface StreamingAvatarTextInputProps {
@@ -52,7 +52,7 @@ export default function InteractiveAvatarTextInput({
                 <PaperPlaneRight
                   className={clsx(
                     "text-indigo-300 hover:text-indigo-200",
-                    disabled && "opacity-50"
+                    disabled && "opacity-50",
                   )}
                   size={24}
                 />
