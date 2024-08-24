@@ -297,7 +297,7 @@ export default function InteractiveAvatar() {
                  <h2>For Optimal Performance:</h2>
                  <ul>
                   <li>Use the Chrome browser with a large screen for the best experience.</li>
-                  <li>Submit text in multiple languages: BG,CN,CZ,DK,EN,ES,FI,FR,DE,GR,HU,IN,ID,IT,JP,KR,LU,MY,NL,NO,PL,PT,RO,RU,SK,SE,TR,UA,VN.</li>
+                  <li>Submit text in multiple languages: BG,CN,CZ,DK,EN,ES,FI,FR,DE,GR,HU,IN,ID,IT,JP,KR, LU,MY,NL,NO,PL,PT,RO,RU,SK,SE,TR,UA,VN.</li>
                   <li>Monitor log messages in the console for important updates.</li>
                  </ul>
                </div>
