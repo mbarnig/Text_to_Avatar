@@ -291,12 +291,13 @@ export default function InteractiveAvatar() {
                  <ul>
                   <li>Up to 3 concurrent sessions are allowed.</li>
                   <li>Each session is limited to a maximum of 10 minutes.</li>
-                  <li>Submitted text should not exceed 1000 words.</li>
+                  <li>The global monthly limit is 300 minutes.</li>                  
+                  <li>Submitted text should not exceed 1500 characters.</li>
                  </ul>
                  <h2>For Optimal Performance:</h2>
                  <ul>
-                  <li>Use the Chrome browser for the best experience.</li>
-                  <li>Submit text in multiple languages: English, German, French, Luxembourgish, Chinese, Japanese, Hindi, Korean, Danish, Dutch, Turkish, and more.</li>
+                  <li>Use the Chrome browser with a large screen for the best experience.</li>
+                  <li>Submit text in multiple languages: BG,CN,CZ,DK,EN,ES,FI,FR,DE,GR,HU,IN,ID,IT,JP,KR,LU,MY,NL,NO,PL,PT,RO,RU,SK,SE,TR,UA,VN.</li>
                   <li>Monitor log messages in the console for important updates.</li>
                  </ul>
                </div>
