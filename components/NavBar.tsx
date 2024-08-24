@@ -26,7 +26,7 @@ export default function NavBar() {
           <Link
             isExternal
             aria-label="Github"
-            href="https://github.com/mbarnig/InteractiveAvatarNextJSDemo.git"
+            href="https://github.com/mbarnig/Text_to_Avatar.git"
             className="flex flex-row justify-center gap-1 text-foreground"
           >
             <GithubIcon className="text-default-500" />
