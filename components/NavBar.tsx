@@ -16,7 +16,7 @@ export default function NavBar() {
       <NavbarBrand>
         <div className="bg-gradient-to-br from-sky-300 to-indigo-500 bg-clip-text ml-4">
           <p className="text-xl font-semibold text-transparent">
-            Interactive TTA (Text to Avatar) Demo based on HeyGen SDK
+            Interactive TTMA (Text to my Avatar) Demo based on HeyGen SDK
           </p>
         </div>
       </NavbarBrand>
