@@ -1,2 +1,2 @@
-# Text_to_Avatar
+# Text to my Avatar
 HeyGen Interactive Avatar multilingual TTS
