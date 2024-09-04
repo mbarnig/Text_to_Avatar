@@ -15,7 +15,7 @@ De noordenwind en de zon waren in discussie over wie de sterkste was, toen er ee
 ```
 這時，陽光溫暖地照射出來，旅行者立刻脫下了斗篷。所以北風不得不承認太陽是兩者中最強的一個。
 ```
-### japanese
+#### japanese
 ```
 北風と太陽がどちらが強いか言い争っていたとき、暖かいマントにくるまった旅人がやって来ました。二人は、旅人にマントを脱がせることに最初に成功した方が、もう一方より強いとみなすべきだと同意しました。
 ```
